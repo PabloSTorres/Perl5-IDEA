@@ -295,6 +295,9 @@
                          shortName="VariableLexicalBuiltIn" displayName="Lexical built-in declarations" groupName="Perl5" enabledByDefault="true" level="WARNING"
                          implementationClass="com.perl5.lang.perl.idea.inspections.PerlVariableBuiltinRedeclarationInspection" />
         <localInspection language="Perl5"
+                         shortName="VariableHasValidName" displayName="Lexical built-in declarations" groupName="Perl5" enabledByDefault="true" level="WARNING"
+                         implementationClass="com.perl5.lang.perl.idea.inspections.PerlVariableIsValidNameInspection" />
+        <localInspection language="Perl5"
                          shortName="UnusedLexicalVariable" displayName="Unused lexical variables" groupName="Perl5" enabledByDefault="true" level="WARNING"
                          implementationClass="com.perl5.lang.perl.idea.inspections.PerlUnusedLexicalVariableInspection" />
         <localInspection language="Perl5"
