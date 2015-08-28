@@ -1,1 +1,5 @@
 /camelcade.jar
+.idea
+*.iml
+gen/
+out/
